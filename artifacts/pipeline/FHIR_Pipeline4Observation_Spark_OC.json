@@ -36,13 +36,13 @@
 						},
 						"type": "BigDataPoolReference"
 					},
-					"executorSize": null,
+					"executorSize": "Small",
 					"conf": {
 						"spark.dynamicAllocation.enabled": null,
 						"spark.dynamicAllocation.minExecutors": null,
 						"spark.dynamicAllocation.maxExecutors": null
 					},
-					"driverSize": null,
+					"driverSize": "Small",
 					"numExecutors": null
 				}
 			},
@@ -87,13 +87,13 @@
 						},
 						"type": "BigDataPoolReference"
 					},
-					"executorSize": null,
+					"executorSize": "Small",
 					"conf": {
 						"spark.dynamicAllocation.enabled": null,
 						"spark.dynamicAllocation.minExecutors": null,
 						"spark.dynamicAllocation.maxExecutors": null
 					},
-					"driverSize": null,
+					"driverSize": "Small",
 					"numExecutors": null
 				}
 			},
@@ -128,6 +128,9 @@
 							},
 							"wildcardFileName": "*.parquet",
 							"enablePartitionDiscovery": false
+						},
+						"formatSettings": {
+							"type": "ParquetReadSettings"
 						}
 					},
 					"sink": {
@@ -238,11 +241,11 @@
 			},
 			"ServerName": {
 				"type": "string",
-				"defaultValue": "synapsee2e"
+				"defaultValue": "amia-synapse-aj"
 			},
 			"SparkPoolName": {
 				"type": "string",
-				"defaultValue": "synapsee2espark"
+				"defaultValue": "sparkpoolaj"
 			},
 			"DatasetSize": {
 				"type": "string",
