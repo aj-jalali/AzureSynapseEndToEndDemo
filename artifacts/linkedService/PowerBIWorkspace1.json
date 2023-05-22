@@ -4,8 +4,8 @@
 		"annotations": [],
 		"type": "PowerBIWorkspace",
 		"typeProperties": {
-			"workspaceID": "powerbi://api.powerbi.com/v1.0/myorg/AMIA",
-			"tenantID": "e202cd47-7a56-4baa-99e3-e3b71a7c77dd"
+			"workspaceID": "c13140ef-5ede-4eec-b128-d1155225f8a9",
+			"tenantID": "44467e6f-462c-4ea2-823f-7800de5434e3"
 		}
 	}
 }
