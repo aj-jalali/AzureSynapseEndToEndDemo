@@ -230,11 +230,11 @@
 		"parameters": {
 			"StorageName": {
 				"type": "string",
-				"defaultValue": "synapsee2elake"
+				"defaultValue": "amiadatalakeaj"
 			},
 			"DatabaseName": {
 				"type": "string",
-				"defaultValue": "synapsee2edw"
+				"defaultValue": "sqlpoolaj"
 			},
 			"ServerName": {
 				"type": "string",
